@@ -1,0 +1,54 @@
+SINTAXIS SQL
+
+[select] **distinct** (nombre de atributo, nombre de atributo, {case when (condición) then 'opción 1' else 'opción 2'} as "Nombre que tú le pongas")
+	[from] (nombre de la tabla) 
+	[where] (condición {=, like(para cadenas), and, or}) 
+
+Operaciones:
+order by atributo1, atributo2, atributo3...
+unión: las relaciones deben ser compatibles, pone todo en la misma columna -> select name from listaNombres union select name from listaNombres2 (intersect all mantiene los repetidos)
+intersect: las relaciones deben ser compatibles, pone lo que hay en los dos sitios en la misma columna -> select name from listaNombres intersect select name from listaNombres2 intersect all mantiene los repetidos)
+
+Funciones agregadas: (No se pueden componer (media de mínimos por ejemplo)
+
+Media: avg (atributo)
+Mínimo: min (atributo)
+Máximo: max (atributo)
+Suma: sum (atributo)
+Cuenta: count (atributo)
+
+(condiciones) having *función agregada* (atributo) **condición**
+
+
+Valores nulos:
+
+is null / is not null 
+
+Inner join
+
+Sirve para juntar dos tablas que tengan atributos en común
+
+**select** atajo.atributo **from** tabla atajo **inner join** otraTabla atajo2 **on** atajo2.atributo = atajo.atributo //a partir del from crea una tabla mezclando la primera y la segunda a través del atributo común
+
+Esta tabla es la que luego filtraremos usando where 
+
+GROUP BY
+
+Sirve para crear diferentes valores para cada elemento de la columna que estemos tratando (se usan varios atributos) [Hace grupos dentro de la tabla para generar valores para esos grupos]
+
+select atributo1, atributo2 from tabla group by atributo1
+
+Para cada  atributo1 va a hacer algo que tenga que ver con atributo 2, por ejemplo, si atributo2 es un valor agregado (avg, sum, etc) hace esa operación PARA CADA atributo1  yqs tengo sueño son las 23 me kgo ent odo
+
+
+
+INSERTAR VALORES
+Insert into tabla (atributo1, atributo2, ..., atributon)
+values
+(atributo1, atributo2,..., atributon)
+
+MODIFICAR VALORES
+update tabla set atributo1=valorNuevo where condicion para modificar ese valor
+
+BORRAR VALORES
+delete from tabla
