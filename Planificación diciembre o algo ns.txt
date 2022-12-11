@@ -1,0 +1,19 @@
+***ESTA SEMANA***
+28/11 Examen SSOO (5%) hexo
+1/12 Examen BBDD (25%)
+2/12 Prueba tema 5 matemáticas (6.67%) restos divididos
+4/12 E2 p2 BBDD
+
+***SEMANA DEL PUENTE***
+5/12 Entrega minishell
+5/12 PL2 SSOO 7%
+9/12 Prueba tema 6 matemáticas(6.67%) + prueba tema 7 matemáticas(6.67%)
+11/12 E2 p3 BBDD
+
+***SEMANA SIGUIENTE AL PUENTE***
+1X/12 E3 SSOO
+16/12 PEI 2 matemáticas (30%)
+
+***SEMANA FINAL***
+17/12 E2 EEDD
+22/12 PL2 Arquitectura de redes
