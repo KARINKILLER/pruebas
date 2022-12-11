@@ -11,9 +11,10 @@
 11/12 E2 p3 BBDD
 
 ***SEMANA SIGUIENTE AL PUENTE***
-1X/12 E3 SSOO
 16/12 PEI 2 matemáticas (30%)
+17/12 E2 EEDD
+18/12 E3 SSOO
 
 ***SEMANA FINAL***
-17/12 E2 EEDD
+
 22/12 PL2 Arquitectura de redes
